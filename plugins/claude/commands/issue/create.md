@@ -1,10 +1,10 @@
 ---
-description: Report an issue to the ungood/agents plugin marketplace
+description: Report an issue to the ungood/agent-plugins plugin marketplace
 allowed-tools: Bash(gh:*)
 argument-hint: '[title]'
 ---
 
-Report an issue to the ungood/agents plugin marketplace repository.
+Report an issue to the ungood/agent-plugins plugin marketplace repository.
 
 Follow these steps:
 
@@ -16,11 +16,11 @@ Follow these steps:
 
 2. **Create the issue in the marketplace repository**:
 
-   - Use `gh issue create` with the `-R` flag to target the marketplace repository `ungood/agents`
+   - Use `gh issue create` with the `-R` flag to target the marketplace repository `ungood/agent-plugins`
    - Use HEREDOC format for multiline bodies
    - Example:
      ```bash
-     gh issue create -R ungood/agents --title "Issue title" --body "$(cat <<'EOF'
+     gh issue create -R ungood/agent-plugins --title "Issue title" --body "$(cat <<'EOF'
      Issue description here
      EOF
      )"
