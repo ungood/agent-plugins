@@ -1,0 +1,9 @@
+[global]
+# Prose is one line per paragraph, wrapped by the editor. Skills, commands
+# and LICENSE.md open with frontmatter or plain text, not a heading.
+disable = ["MD013", "MD041"]
+
+[per-file-ignores]
+# Copied from elsewhere: example paths that don't exist here, and bold text
+# used as headings.
+".claude/skills/skill-creator/references/*.md" = ["MD036", "MD057"]
