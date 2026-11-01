@@ -11,7 +11,7 @@ error handling.
 
 ### Structure
 
-```
+```text
 api-client/
 ├── SKILL.md                    # Core request patterns
 ├── references/
@@ -49,7 +49,7 @@ const user = await apiClient.get<User>(`/users/${id}`);
 For complete endpoint docs:
 [references/endpoints.md](references/endpoints.md)
 
-```
+```text
 
 ### Why It Works
 - ✅ Description includes operation keywords for matching
@@ -75,7 +75,7 @@ components │ ├── hooks-patterns.md # Custom hooks and state management
 component-templates/ ├── basic-component.tsx ├── form-component.tsx
 └── list-component.tsx
 
-````
+````text
 
 ### SKILL.md Excerpt
 ```markdown
@@ -111,7 +111,7 @@ export function Card({ title, items }: CardProps) {
 For complete component library:
 [references/component-library.md](references/component-library.md)
 
-```
+```text
 
 ### Why It Works
 - ✅ Shows TypeScript-first React patterns
@@ -136,7 +136,7 @@ oauth-flow.md # Complete OAuth implementation └── scripts/ ├──
 test_connection.js # Validate GitHub credentials └──
 check_rate_limit.js # Monitor API usage
 
-````
+````text
 
 ### SKILL.md Excerpt
 ```markdown
@@ -162,7 +162,7 @@ const response = await fetch('https://api.github.com/user', {
 
 Check rate limits: `node scripts/check_rate_limit.js`
 
-```
+```text
 
 ### Why It Works
 - ✅ Auth pattern shown immediately
@@ -186,7 +186,7 @@ references/ │ ├── component-reference.md # All DaisyUI components │
 └── theme-tokens.md # Color system and usage └── assets/ └──
 theme-preview.html # Visual reference
 
-````
+````text
 
 ### SKILL.md Excerpt
 ```markdown
@@ -211,7 +211,7 @@ description: DaisyUI v5 component styling for cards, forms, buttons, and layouts
 For all components:
 [references/component-reference.md](references/component-reference.md)
 
-````
+````text
 
 ### Why It Works
 - ✅ Shows actual DaisyUI classes used in project

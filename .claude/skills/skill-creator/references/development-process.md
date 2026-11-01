@@ -73,7 +73,7 @@ touch .claude/skills/my-skill/SKILL.md
 
 The description is critical for skill discovery. Format:
 
-```
+```text
 [Domain/Context] [operations/capabilities]. Use when [trigger scenarios].
 ```
 
