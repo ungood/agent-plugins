@@ -40,6 +40,21 @@
     {
       "name": "writing-style",
       "source": "./plugins/writing-style"
+    },
+    {
+      "name": "orca",
+      "description": "Skills for driving the Orca agent orchestrator, from stablyai/orca",
+      "source": {
+        "source": "git-subdir",
+        "url": "stablyai/orca",
+        "path": "skills"
+      },
+      "skills": [
+        "./orca-cli",
+        "./orchestration",
+        "./orca-linear",
+        "./computer-use"
+      ]
     }
   ]
 }
