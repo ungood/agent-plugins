@@ -14,7 +14,7 @@
     "owner": {
       "type": "object",
       "description": "Maintainer contact and attribution information",
-      "required": ["name", "email"],
+      "required": ["name"],
       "properties": {
         "name": {
           "type": "string",

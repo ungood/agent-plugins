@@ -1,4 +1,5 @@
-# Generated files
-.pre-commit-config.yaml
-result
-!.envrc
+.env
+mise.local.toml
+mise.local.lock
+.mise/locks/mise.local/
+hk.local.pkl

@@ -44,13 +44,13 @@ Cut these entirely or replace with direct language.
 "In today's fast-paced world...", "In today's rapidly evolving landscape...", "In an era of...", "In the ever-changing world of..."
 
 **AI self-reference:**
-"As an AI...", "As a large language model...", "As your assistant...", "I don't have personal experiences, but...", "While I can't \[human thing\]..."
+"As an AI...", "As a large language model...", "As your assistant...", "I don't have personal experiences, but...", "While I can't [human thing]..."
 
 **Permission-granting closers:**
 "Hope this helps!", "Let me know if you have any other questions!", "Feel free to ask if you need anything else!", "Happy to help further!", "Don't hesitate to reach out!"
 
 **False profundity:**
-"At its core, \[X\] is about \[Y\]", "It's not just about X; it's about Y", "\[Topic\] is a double-edged sword", "The answer lies in...", "This raises an important question...", "Remember, \[obvious truism\]"
+"At its core, [X] is about [Y]", "It's not just about X; it's about Y", "[Topic] is a double-edged sword", "The answer lies in...", "This raises an important question...", "Remember, [obvious truism]"
 
 **Performative empathy:**
 "I understand this can be frustrating...", "I can see why you'd feel that way...", "That's a valid concern...", "Your feelings are completely understandable..."

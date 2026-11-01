@@ -12,6 +12,10 @@ This repository is a Claude Code plugin marketplace containing a personal collec
   - `marketplace.json` - Plugin marketplace manifest
 - `plugins/` - Individual plugin directories
 
+## Checks
+
+Run `mise run check` before committing, and `mise run fix` to apply formatting. The checks include the fleet [standards](https://github.com/ungood/standards).
+
 ## Documentation
 
 1. [Commands](docs/commands.md)

@@ -1,0 +1,25 @@
+amends "package://github.com/ungood/standards/releases/download/v1.0.0/standards@1.0.0#/Standards.pkl"
+
+import "package://github.com/ungood/standards/releases/download/v1.0.0/standards@1.0.0#/Hk.pkl"
+
+steps {
+  ["prettier"] = (Hk.builtins.prettier) {
+    exclude = List("**/*.md", ".mise/**")
+  }
+
+  ["mdformat"] {
+    glob = List("**/*.md")
+    check = "mdformat --check --number {{files}}"
+    fix = "mdformat --number {{files}}"
+  }
+
+  ["shellcheck"] = Hk.builtins.shellcheck
+
+  ["plugin-schemas"] {
+    glob = List(".claude-plugin/marketplace.json", "plugins/*/.claude-plugin/plugin.json", "schemas/*.json")
+    check = """
+      check-jsonschema --schemafile schemas/marketplace.schema.json .claude-plugin/marketplace.json
+      check-jsonschema --schemafile schemas/plugin.schema.json plugins/*/.claude-plugin/plugin.json
+      """
+  }
+}
