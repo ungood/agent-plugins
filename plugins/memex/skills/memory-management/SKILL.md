@@ -11,7 +11,7 @@ Memory makes Claude your workplace collaborator - someone who speaks your intern
 
 Transform shorthand into understanding:
 
-```
+```text
 User: "ask todd to do the PSR for oracle"
               ↓ Claude decodes
 "Ask Todd Martinez (Finance lead) to prepare the Pipeline Status Report
@@ -26,7 +26,7 @@ Without memory, that request is meaningless. With memory, Claude knows:
 
 ## Architecture
 
-```
+```text
 CLAUDE.md          ← Hot cache (~30 people, common terms)
 memory/
   glossary.md      ← Full decoder ring (everything)
@@ -56,7 +56,7 @@ memory/
 
 ## Lookup Flow
 
-```
+```text
 User: "ask todd about the PSR for phoenix"
 
 1. Check CLAUDE.md (hot cache)
@@ -232,7 +232,7 @@ $1.2M budget, 6-month timeline. Critical path for Horizon project.
 
 **Always** decode shorthand before acting on requests:
 
-```
+```text
 1. CLAUDE.md (hot cache)     → Check first, covers 90% of cases
 2. memory/glossary.md        → Full glossary if not in hot cache
 3. memory/people/, projects/ → Rich detail when needed
@@ -241,7 +241,7 @@ $1.2M budget, 6-month timeline. Critical path for Horizon project.
 
 Example:
 
-```
+```text
 User: "ask todd to do the PSR for oracle"
 
 CLAUDE.md lookup:

@@ -90,7 +90,7 @@ count.
 
 ### Description Formula
 
-```
+```text
 [Technology] + [Operations] + [Data Types] + [Trigger Phrase]
 ```
 
@@ -157,7 +157,7 @@ const users = response.data;
 ```
 ````
 
-````
+````text
 
 **Guidelines**:
 - Minimal working example
@@ -194,7 +194,7 @@ const newUser = await apiClient.post<User>('/users', {
 });
 ```
 
-````
+````text
 
 **Guidelines**:
 - One pattern per subsection
@@ -338,7 +338,7 @@ Real-world usage examples.
 
 Important considerations.
 
-````
+````text
 
 ### Reference File Naming
 
@@ -464,7 +464,7 @@ Add assets when you have:
 
 ### Asset Organization
 
-```
+```text
 assets/
 ├── templates/
 │   ├── component.svelte
@@ -493,7 +493,7 @@ cp assets/templates/component.svelte src/lib/components/new-component.svelte
 
 Modify the template for your needs.
 
-````
+````text
 
 ---
 
@@ -558,7 +558,7 @@ const response = await fetch(url, {
 ```
 ````
 
-````
+````text
 
 ### Mistake 4: Duplicate Content
 ```markdown

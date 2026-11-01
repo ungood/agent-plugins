@@ -178,7 +178,7 @@ ______________________________________________________________________
 
 Every skill must have:
 
-```
+```text
 skill-name/
 └── SKILL.md          # Required
 ```
@@ -205,7 +205,7 @@ Only `name` and `description` are supported. No other YAML fields.
 
 ### Optional Bundled Content
 
-```
+```text
 skill-name/
 ├── SKILL.md                    # Level 2: Instructions
 ├── references/                 # Level 3: Documentation
@@ -229,7 +229,7 @@ From Anthropic's documentation:
 
 **Initial state**:
 
-```
+```text
 [System Prompt]
 [Skill 1 Metadata]
 [Skill 2 Metadata]
@@ -239,7 +239,7 @@ From Anthropic's documentation:
 
 **After skill triggers**:
 
-```
+```text
 [System Prompt]
 [Skill Metadata (all skills)]
 [User Message]

@@ -36,7 +36,7 @@
 
 ### Directory Layout
 
-```
+```text
 my-skill/
 ├── SKILL.md          # Core instructions + YAML frontmatter
 ├── references/       # Detailed documentation (loaded as needed)

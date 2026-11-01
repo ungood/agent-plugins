@@ -19,6 +19,7 @@ Follow these steps:
    - Use `gh issue create` with the `-R` flag to target the marketplace repository `ungood/agent-plugins`
    - Use HEREDOC format for multiline bodies
    - Example:
+
      ```bash
      gh issue create -R ungood/agent-plugins --title "Issue title" --body "$(cat <<'EOF'
      Issue description here

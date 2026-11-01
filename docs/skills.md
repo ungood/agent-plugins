@@ -2,22 +2,22 @@
 
 A skill is a folder of instructions, scripts, and resources that agents can discover and load dynamically to perform better at specific tasks. In order for the folder to be recognized as a skill, it must contain a `SKILL.md` file.
 
-# Skill Folder Layout
+## Skill Folder Layout
 
 A minimal skill folder looks like this:
 
-```
+```text
 my-skill/
   - SKILL.md
 ```
 
 More complex skills can add additional directories and files as needed.
 
-# The SKILL.md file
+## The SKILL.md file
 
 The skill's "entrypoint" is the `SKILL.md` file. It is the only file required to exist. The file must start with a YAML frontmatter followed by regular Markdown.
 
-## YAML Frontmatter
+### YAML Frontmatter
 
 The YAML frontmatter has 2 required properties:
 
@@ -41,10 +41,10 @@ There are 3 optional properties:
   - Clients can use this to store additional properties not defined by the Agent Skills Spec
   - We recommend making your key names reasonably unique to avoid accidental conflicts
 
-## Markdown Body
+### Markdown Body
 
 The Markdown body has no restrictions on it.
 
-## Reference
+### Reference
 
-For complete documentation, see: https://code.claude.com/docs/en/skills
+For complete documentation, see: <https://code.claude.com/docs/en/skills>

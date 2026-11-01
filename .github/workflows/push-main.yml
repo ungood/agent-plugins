@@ -15,4 +15,4 @@ concurrency:
 jobs:
   ci:
     name: CI
-    uses: ungood/standards/.github/workflows/ci.yml@v1.0.0
+    uses: ungood/standards/.github/workflows/ci.yml@26f872057cc96483a7e6b4e293dfe8acaa3778c8 # v1.0.0
