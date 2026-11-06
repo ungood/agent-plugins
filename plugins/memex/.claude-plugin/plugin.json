@@ -1,5 +1,5 @@
 {
   "name": "memex",
-  "description": "Obsidian vault management — memory system, task management, people files, and CLI reference",
-  "version": "0.2.0"
+  "description": "Obsidian vault management — memory system, task management, and CLI reference",
+  "version": "0.3.0"
 }
