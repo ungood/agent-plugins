@@ -5,7 +5,7 @@ description: How a dispatched Orca worker talks to its orchestrator. Use when yo
 
 # Work as an Orca worker
 
-The orchestrator is another Claude session, talking to you over Orca. It can't see your terminal. For command syntax, run `orca skills get orchestration`.
+The orchestrator is another Claude session, talking to you over Orca. It can't see your terminal. For command syntax, use the official `orca:orchestration` skill, or run `orca skills get orchestration`.
 
 - **Ask before you build.** Before anything the brief leaves open, send the orchestrator a question with your recommendation first, and wait for the answer. Use `orca orchestration ask` while your dispatch is open. It blocks until the answer comes. Never leave open questions in a PR or issue.
 - **Everything goes through Orca.** Anything you need from the orchestrator (a decision, "please push", "please open this PR") must go through `orca orchestration send` or `ask`. Text only in your terminal never reaches it, and you sit stalled.

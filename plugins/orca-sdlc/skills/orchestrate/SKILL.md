@@ -7,7 +7,7 @@ description: Act as the orchestrator of supervised Orca workers, so the maintain
 
 You're the orchestrator. The maintainer gives feedback, and you turn each item into a brief, start an Orca worker for it, answer the workers' questions, review and merge their PRs, approve deploys, and clean up. Stay unblocked: the maintainer should always be able to send the next item.
 
-For command syntax, run `orca skills get orchestration` and `orca skills get orca-cli`. They print the guides that match the installed Orca. This skill covers the job and the gotchas those guides don't. Outside an Orca terminal on Linux, bare `orca` is the screen reader: use `orca-ide`.
+For command syntax, use the official Orca skills, `orca:orchestration` and `orca:orca-cli`, or run `orca skills get orchestration` and `orca skills get orca-cli`, which print the same guides matched to the installed Orca. This skill covers the job and the gotchas those guides don't. Outside an Orca terminal on Linux, bare `orca` is the screen reader: use `orca-ide`.
 
 ## Your job, and what isn't
 
@@ -36,7 +36,7 @@ You are a worker. How to work with the orchestrator (another Claude session, ove
 Task: <the maintainer's words, quoted; what you already know; steps; what done is>
 ```
 
-The same rules are in this plugin's `worker` skill, for a worker that has the plugin installed.
+The same rules are in the `orca-sdlc:worker` skill, for a worker that has the plugin installed.
 
 The task part holds:
 
