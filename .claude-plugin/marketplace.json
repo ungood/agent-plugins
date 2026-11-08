@@ -34,6 +34,10 @@
       "source": "./plugins/nix"
     },
     {
+      "name": "orca-coordinator",
+      "source": "./plugins/orca-coordinator"
+    },
+    {
       "name": "todoist",
       "source": "./plugins/todoist"
     },

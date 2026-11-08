@@ -1,0 +1,5 @@
+{
+  "name": "orca-coordinator",
+  "description": "Coordinate supervised Orca workers: start them with inline briefs, answer their mail, review and merge their PRs, and clean up",
+  "version": "0.1.0"
+}
