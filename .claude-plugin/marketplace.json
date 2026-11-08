@@ -34,6 +34,10 @@
       "source": "./plugins/nix"
     },
     {
+      "name": "orca-sdlc",
+      "source": "./plugins/orca-sdlc"
+    },
+    {
       "name": "todoist",
       "source": "./plugins/todoist"
     },
