@@ -47,18 +47,7 @@
     },
     {
       "name": "orca",
-      "description": "Skills for driving the Orca agent orchestrator, from stablyai/orca",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/stablyai/orca.git",
-        "path": "skills"
-      },
-      "skills": [
-        "./orca-cli",
-        "./orchestration",
-        "./orca-linear",
-        "./orca-computer-use"
-      ]
+      "source": "./plugins/orca"
     }
   ]
 }
