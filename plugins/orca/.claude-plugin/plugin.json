@@ -1,0 +1,5 @@
+{
+  "name": "orca",
+  "description": "Skills for driving the Orca agent orchestrator, copied from stablyai/orca's discovery stubs",
+  "version": "0.1.0"
+}
