@@ -45,4 +45,4 @@ Use environment variables: `CLAUDE_PROJECT_DIR`, `CLAUDE_PLUGIN_ROOT`, `CLAUDE_S
 
 - [references/hooks-reference.md](references/hooks-reference.md) - Complete technical reference with all 10 hook events, specs, and troubleshooting
 - [references/examples.md](references/examples.md) - 15+ real-world hook implementations
-- https://code.claude.com/docs/en/hooks - Official documentation
+- <https://code.claude.com/docs/en/hooks> - Official documentation

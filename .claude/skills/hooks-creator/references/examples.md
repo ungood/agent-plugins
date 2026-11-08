@@ -812,7 +812,7 @@ Plugin hook for code formatting.
 
 **Plugin structure:**
 
-```
+```text
 my-format-plugin/
 ├── plugin.json
 └── scripts/

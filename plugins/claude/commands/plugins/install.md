@@ -37,6 +37,7 @@ Follow these steps:
    - Add or update the `enabledPlugins` object to include all selected plugins
    - Each plugin should be a key in the format `"plugin-name@marketplace-name"` with a value of `true`
    - Example settings.json entry:
+
      ```json
      {
        "enabledPlugins": {

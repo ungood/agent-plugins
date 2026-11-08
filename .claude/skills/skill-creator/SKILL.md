@@ -28,7 +28,7 @@ Skills load in 3 levels:
 
 ## Structure
 
-```
+```text
 my-skill/
 ├── SKILL.md       # Core instructions + metadata
 ├── references/    # Detailed docs (loaded as needed)

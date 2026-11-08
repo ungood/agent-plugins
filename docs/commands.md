@@ -66,4 +66,4 @@ Both can coexist in projects.
 
 ## Reference
 
-For complete documentation, see: https://code.claude.com/docs/en/slash-commands
+For complete documentation, see: <https://code.claude.com/docs/en/slash-commands>

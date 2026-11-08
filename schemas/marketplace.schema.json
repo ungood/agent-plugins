@@ -60,12 +60,30 @@
             "pattern": "^[a-z0-9-]+$"
           },
           "source": {
-            "type": "string",
-            "description": "Relative path to plugin directory or URL",
-            "pattern": "^(\\.\\/.*|https?:\\/\\/.*)$"
+            "description": "A relative path from the marketplace root, or a source object such as github or git-subdir",
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "object",
+                "required": ["source"],
+                "properties": {
+                  "source": {
+                    "enum": [
+                      "github",
+                      "git-subdir",
+                      "url",
+                      "archive",
+                      "npm",
+                      "command"
+                    ]
+                  }
+                }
+              }
+            ]
           }
-        },
-        "additionalProperties": false
+        }
       }
     }
   },

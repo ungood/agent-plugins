@@ -7,11 +7,8 @@ steps {
     exclude = List("**/*.md", ".mise/**")
   }
 
-  ["mdformat"] {
-    glob = List("**/*.md")
-    check = "mdformat --check --number {{files}}"
-    fix = "mdformat --number {{files}}"
-  }
+  ["rumdl"] = Hk.builtins.rumdl
+  ["jactionlint"] = Hk.builtins.jactionlint
 
   ["shellcheck"] = Hk.builtins.shellcheck
 
