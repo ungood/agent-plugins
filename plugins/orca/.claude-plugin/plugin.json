@@ -1,0 +1,5 @@
+{
+  "name": "orca",
+  "description": "Run supervised Orca workers as their orchestrator, and work as one",
+  "version": "0.1.0"
+}
