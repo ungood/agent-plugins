@@ -50,7 +50,7 @@
       "description": "Skills for driving the Orca agent orchestrator, from stablyai/orca",
       "source": {
         "source": "git-subdir",
-        "url": "stablyai/orca",
+        "url": "https://github.com/stablyai/orca.git",
         "path": "skills"
       },
       "skills": [
