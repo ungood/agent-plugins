@@ -57,7 +57,7 @@
         "./orca-cli",
         "./orchestration",
         "./orca-linear",
-        "./computer-use"
+        "./orca-computer-use"
       ]
     }
   ]
